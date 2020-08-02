@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<h1 style="font-weight: 500;">Orders</h1>
+<mat-tab-group>
+    <mat-tab label="PAST ORDERS" >
+        <div class="content" *ngFor="let orderlast of orders">
+            <app-card-order [order]="orderlast">
+        
+            </app-card-order>
+        </div>        
+    </mat-tab>
+    <mat-tab label="CURRENT ORDERS">
+        <div class="content" *ngFor="let orderlast of orders">
+            <app-card-order [order]="orderlast">
+            </app-card-order>
+        </div>        
+    </mat-tab>
+</mat-tab-group>
+

@@ -1,0 +1,29 @@
+::ng-deep .mat-ink-bar{
+    background-color: hsl(339,82,51) !important;
+}
+::ng-deep .mat-tab-label{
+    // color: hsl(339,82,51);
+    // font-size: medium;
+    // font-weight: 600;
+    height: 15px;
+    width: 167.5px;
+    color: #E91E63;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 15px;
+    text-align: center;
+}
+
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::ng-deep .mat-tab-body-content{
+    display: flex;
+    flex-wrap: wrap;
+    // background-color: blue;
+    place-content: center;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+mat-card{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width: 335px;
+    height: 94px;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    align-items: center;   
+}
+
+img{
+    width: 78px;
+    height: 78px;
+    padding-right: 16px;
+}
+.column{
+    display: flex;
+    flex: 1;
+    flex-direction: column;   
+    width: 50%;
+}
+.title{
+    border-bottom: 1px;
+    border-bottom-color: rgb(216,216,216);
+    border-bottom-style: outset;
+    height: 19px;
+    // width: 225px;
+    width: 14rem;
+    color: #E91E63;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.au-name{
+    height: 16px;
+    // width: 225px;
+    color: #47525D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 16px;
+    padding-top: 5px;
+    width: 14rem;
+}
+
+.au-name-1 {
+    height: 16px;
+    // width: 147px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    width: 14rem;
+}
